@@ -6,4 +6,9 @@ export class AppController {
     getRootRoute() {
         return 'hi there!'
     }
+
+    @Get('/simple')
+    getSimpleRoute() {
+        return 'hi there simple!'
+    }
 }

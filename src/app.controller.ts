@@ -11,4 +11,9 @@ export class AppController {
     getSimpleRoute() {
         return 'hi there simple!'
     }
+
+    @Get('/bye')
+    getByeThere() {
+        return 'bye there!'
+    }
 }
